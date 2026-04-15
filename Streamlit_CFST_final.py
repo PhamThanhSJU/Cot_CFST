@@ -8,9 +8,9 @@ st.set_page_config(page_title="CFST Predictor")
 
 # ===== SIDEBAR =====
 st.sidebar.markdown("## Thông tin tác giả")
-st.sidebar.info("Nhóm NCKH khoa Công trình\nĐH Thủy Lợi\nthanhpv@tlu.edu.com")
+st.sidebar.info("Nhóm NCKH khoa Công trình\nĐH Thủy Lợi\nthanhpv@tlu.edu.vn")
 
-st.title("Dự đoán sức chịu nén CFST (PSO-XGB)")
+st.title("Dự đoán sức chịu nén CFST chữ nhật bằng mô hình lai (PSO-XGB)")
 
 # ===== MODEL =====
 @st.cache_resource

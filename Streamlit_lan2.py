@@ -31,7 +31,7 @@ st.title ("Dự đoán và phân tích ảnh hưởng của các tham số đầ
 #    st.image("Fig2.jpg", caption="Overview on structure of Random Forest model") 
 	
 #Make a prediction
-st.header("Dự đoán khả năng chịu nén đúng tâm của cột CFST chữ nhật bằng PSO-XGB")
+#st.header("Dự đoán khả năng chịu nén đúng tâm của cột CFST chữ nhật bằng PSO-XGB")
 st.subheader("Các biến đầu vào:")
 col1, col2 =st.columns(2)
 
@@ -152,5 +152,5 @@ if st.button("Dự đoán"):
        my_bar.progress(percent_complete + 1, text=progress_text)
     time.sleep(1)
     my_bar.empty()
-    st.success(f"Giá trị dư đoán trung bình trong 5 lần từ PSO-XGB được là: {(puxgb)}")
-    st.success(f"Giá trị độ lệch chuẩn trong 5 lần dự đoán từ PSO-XGB là: {(puxgb_err)}")
+    st.success(f"Giá trị dư đoán trung bình trong 5 lần từ PSO-XGB được là: {(puxgb).3f} kN")
+    st.success(f"Giá trị độ lệch chuẩn trong 5 lần dự đoán từ PSO-XGB là: {(puxgb_err).3f} kN")

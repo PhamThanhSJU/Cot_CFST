@@ -7,7 +7,7 @@ import streamlit as st
 st.sidebar.markdown("## Thông tin tác giả")
 st.sidebar.markdown("Tác giả: Nhóm NCKH khoa Công trình")
 st.sidebar.caption("Khoa Công trình, ĐH Thủy Lợi")
-st.sidebar.caption("Email: thanhpv@tlu.edu.com")
+st.sidebar.caption("Email: thanhpv@tlu.edu.vn")
 
 #Tên bài báo
 st.title ("Dự đoán và phân tích ảnh hưởng của các tham số đầu vào đến khả năng chịu nén đúng tâm của cột thép nhồi bê tông tiết diện chữ nhật bằng mô hình học máy lai") 

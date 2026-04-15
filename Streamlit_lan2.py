@@ -152,5 +152,5 @@ if st.button("Dự đoán"):
        my_bar.progress(percent_complete + 1, text=progress_text)
     time.sleep(1)
     my_bar.empty()
-    st.success(f"Giá trị dư đoán trung bình trong 5 lần từ PSO-XGB được là: {puxgb:.3f} kN"))
+    st.success(f"Giá trị dư đoán trung bình trong 5 lần từ PSO-XGB được là: {puxgb:.3f} kN")
     st.success(f"Giá trị độ lệch chuẩn trong 5 lần dự đoán từ PSO-XGB là: {puxgb_err:.3f} kN")
